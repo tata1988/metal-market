@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="contacts">
+        <div class="container">
+            <h1 class="title contacts__title">Контакты</h1>
+            <div class="contacts__wrapper">
+                <div class="contacts__map">
+                </div>
+                <div class="contacts__modal-info modal-info">
+                    <img class="modal-info__icon" src="./images/info.svg" alt="icon-info">
+                    <div class="modal-info__descr">Вход в офис находится на углу здания со стороны Ленинградского проспекта на пересечении с ул. Балтийская.</div>
+                </div>
+                <div class="contacts__modal modal">
+                    <h3 class="modal__title">Контакты</h3>
+                    <ul class="modal__list">
+                        <li class="modal__item">
+                            <div class="modal__inner">
+                                <div class="modal__data">8-900-000-00-00</div>
+                                <div class="modal__descr">Москва</div>
+                            </div>
+                            <div class="modal__inner">
+                                <div class="modal__data">8-900-000-00-00</div>
+                                <div class="modal__descr">Россия</div>
+                            </div>
+                            <button class="modal__btn">
+                                    <svg class="modal__btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19.1429 8H9.85714C8.83147 8 8 8.83147 8 9.85714V19.1429C8 20.1685 8.83147 21 9.85714 21H19.1429C20.1685 21 21 20.1685 21 19.1429V9.85714C21 8.83147 20.1685 8 19.1429 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M4.85714 16C3.83571 16 3 15.1643 3 14.1429V4.85714C3 3.83571 3.83571 3 4.85714 3H14.1429C15.1643 3 16 3.83571 16 4.85714" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                            </button>
+                        </li>
+                        <li class="modal__item">
+                            <div class="modal__inner">
+                                <div class="modal__data">metall-market@mail.ru</div>
+                                <div class="modal__descr">Ежедневно 9:00 — 18:00</div>
+                            </div>
+                        <button class="modal__btn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.1429 8H9.85714C8.83147 8 8 8.83147 8 9.85714V19.1429C8 20.1685 8.83147 21 9.85714 21H19.1429C20.1685 21 21 20.1685 21 19.1429V9.85714C21 8.83147 20.1685 8 19.1429 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M4.85714 16C3.83571 16 3 15.1643 3 14.1429V4.85714C3 3.83571 3.83571 3 4.85714 3H14.1429C15.1643 3 16 3.83571 16 4.85714" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </button>
+                        </li>
+                        <li class="modal__item">
+                            <div class="modal__inner">
+                                <div class="modal__data">Адрес</div>
+                                <div class="modal__descr">123456, г. Москва, ул. Ленина 3А, помещ. 2-7</div>
+                            </div>
+                        </li>
+                        <li class="modal__item">
+                            <div class="modal__inner">
+                                <div class="modal__data">Время работы</div>
+                                <div class="modal__descr">Ежедневно 9:00 — 18:00</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="modal__buttons">
+                        <button class="modal__button modal__button-download">
+                            <div class="modal__button-icon">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.75 17V3" stroke="#00A55A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M6.75 11L12.75 17L18.75 11" stroke="#00A55A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19.75 21H5.75" stroke="#00A55A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="modal__button-label">Карта проезда</div>
+                        </button>
+                        <button class="modal__button modal__button-phone">
+                            <div class="modal__button-icon">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="icon">
+                                    <path id="Vector" d="M21.2494 16.4765V19.1862C21.2505 19.4377 21.1988 19.6867 21.0979 19.9172C20.9969 20.1477 20.8488 20.3546 20.663 20.5247C20.4773 20.6947 20.258 20.8242 20.0193 20.9048C19.7805 20.9854 19.5275 21.0153 19.2765 20.9927C16.4915 20.6907 13.8164 19.7409 11.466 18.2197C9.27929 16.8329 7.42534 14.9827 6.0358 12.8003C4.50627 10.4439 3.55442 7.76107 3.25735 4.96915C3.23473 4.71938 3.26447 4.46764 3.34468 4.22996C3.42489 3.99229 3.55381 3.77389 3.72323 3.58866C3.89265 3.40343 4.09885 3.25544 4.32872 3.15411C4.55858 3.05278 4.80707 3.00032 5.05837 3.00009H7.77347C8.21269 2.99577 8.6385 3.151 8.97152 3.43683C9.30455 3.72267 9.52207 4.11961 9.58354 4.55366C9.69814 5.42084 9.91067 6.27229 10.2171 7.09177C10.3388 7.41507 10.3652 7.76642 10.293 8.1042C10.2208 8.44198 10.0531 8.75203 9.8098 8.99761L8.66041 10.1447C9.94877 12.406 11.8248 14.2784 14.0906 15.5642L15.24 14.4171C15.4861 14.1742 15.7967 14.0069 16.1352 13.9348C16.4736 13.8628 16.8257 13.8891 17.1496 14.0106C17.9707 14.3164 18.8239 14.5285 19.6928 14.6429C20.1324 14.7048 20.5339 14.9258 20.8209 15.2639C21.108 15.6019 21.2605 16.0335 21.2494 16.4765Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="modal__button-label">Заказать звонок</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider">
+        <div class="container">
+            <ul class="slider__list">
+                <li class="slider__item">
+                    <picture>
+                        <source media="(max-width: 1440px)" srcset="images/rectangle23-1440.jpg">
+                        <source media="(max-width: 768px)" srcset="images/rectangle23.jpg">
+                        <source media="(max-width: 375px)" srcset="images/rectangle23.jpg">
+                        <img src="images/rectangle23.jpg" alt="photo"> 
+                    </picture>
+                </li>
+                <li class="slider__item">
+                    <picture>
+                        <source media="(max-width: 1440px)" srcset="images/rectangle24-1440.jpg">
+                        <source media="(max-width: 768px)" srcset="images/rectangle24.jpg">
+                        <source media="(max-width: 375px)" srcset="images/rectangle24.jpg">
+                        <img src="images/rectangle24.jpg" alt="photo"> 
+                    </picture>
+                </li>
+                <li class="slider__item">
+                    <picture>
+                        <source media="(max-width: 1440px)" srcset="images/rectangle25-1440.jpg">
+                        <source media="(max-width: 768px)" srcset="images/rectangle25.jpg">
+                        <source media="(max-width: 375px)" srcset="images/rectangle25.jpg">
+                        <img src="images/rectangle25.jpg" alt="photo"> 
+                    </picture>
+                </li>
+            </ul>
+            <div class="slider__wrapper">
+                <div class="slider__progressbar">
+                    <div class="slider__progressbar-indicator"></div>
+                </div>
+                <button class="button button-prev">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 20L8 12L16 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button class="button button-next">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 20L16 12L8 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <div class="team__header">
+                <h2 class="title_fs48">Наша команда</h2>
+                <div class="team__buttons">
+                    <button class="button button-prev">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 20L8 12L16 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="button button-next">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 20L16 12L8 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+                             
+            <p class="team__descr">Металл-Маркет — это команда профессионалов, влюбленных в свое дело. Уверены, что развитие компании начинается с развития ее сотрудников.</p>
+            <ul class="team__slider">
+                <li class="team__card">
+                    <div class="team__card-photo">
+                         <img class="team__card-img" src="images/person1.jpg" alt="photo"> 
+                    </div>
+                   
+                    <div class="team__card-descr">
+                        <div class="team__card-name">Ворончихин <br> Сергей Вячеславович</div>
+                        <div class="team__card-job">Директор</div>
+                    </div>
+                </li>
+                <li class="team__card">
+                    <div class="team__card-photo">
+                        <img class="team__card-img" src="images/person2.jpg" alt="photo"> 
+                   </div>
+                    <div class="team__card-descr">
+                        <div class="team__card-name">Ситникова <br> Александра Константиновна</div>
+                        <div class="team__card-job">Офис-менеджер</div>
+                    </div>
+                </li>
+                <li class="team__card">
+                    <div class="team__card-photo">
+                        <img class="team__card-img" src="images/person3.jpg" alt="photo"> 
+                   </div>
+                    <div class="team__card-descr">
+                        <div class="team__card-name">Лазарева <br> Валерия Максимовна</div>
+                        <div class="team__card-job">Бухгалтер</div>
+                    </div>
+                </li>
+                <li class="team__card">
+                    <div class="team__card-photo">
+                        <img class="team__card-img" src="images/person4.jpg" alt="photo"> 
+                   </div>
+                    <div class="team__card-descr">
+                        <div class="team__card-name">Наумов<br> Илья Семёнович</div>
+                        <div class="team__card-job">Руководитель отдела продаж</div>
+                    </div>
+                </li>
+            </ul>
+
+                <div class="team__progressbar slider__progressbar">
+                    <div class="slider__progressbar-indicator"></div>
+                </div>
+        </div>
+    </section>
+        
+    <section class="requisites">
+        <div class="container requisites__container">
+            <div class="requisites__header">
+                <h2 class="title_fs48">Реквизиты</h2>
+                <div class="requisites__descr">Металл-Маркет — компания, которая dolor sit amet consectetur. Ac sem nisi nullam mi odio. Justo eu egestas arcu rhoncus et. Eleifend morbi sit proin sed proin. Mattis purus sit malesuada in praesent ac nisi convallis. Lorem ipsum dolor sit amet. </div>
+            </div>
+            
+            <ul class="requisites__list">
+                <li class="requisites__list-item">
+                    <div class="requisites__list-name">Полное наименование</div>
+                    <div class="requisites__list-value">Металл-Маркет</div>
+                </li>
+                <li class="requisites__list-item">
+                    <div class="requisites__list-name">Юридический адрес</div>
+                    <div class="requisites__list-value"> 123456, Россия,  Москва, ул. Ленина, 145а, 801</div>
+                </li>
+                <li class="requisites__list-item">
+                    <div class="requisites__list-name">ИНН</div>
+                    <div class="requisites__list-value">1234567890</div>
+                </li>
+                <li class="requisites__list-item">
+                    <div class="requisites__list-name">КПП</div>
+                    <div class="requisites__list-value">123456789</div>
+                </li>
+                <li class="requisites__list-item">
+                    <div class="requisites__list-name">ОГРН</div>
+                    <div class="requisites__list-value">1234567890987</div>
+                </li>
+                <li class="requisites__list-item">
+                    <div class="requisites__list-name">Расчетный счет</div>
+                    <div class="requisites__list-value">12345678909876543210</div>
+                </li>
+                <li class="requisites__list-item">
+                    <div class="requisites__list-name">Корреспондентский счет</div>
+                    <div class="requisites__list-value">12345678909876543210</div>
+                </li>
+                <li class="requisites__list-item">
+                    <div class="requisites__list-name">БИК</div>
+                    <div class="requisites__list-value">123456789</div>
+                </li>
+                <li class="requisites__list-item">
+                    <div class="requisites__list-name">Банк</div>
+                    <div class="requisites__list-value">ПАО «Сбербанк»</div>
+                </li>
+                <li class="requisites__list-item">
+                    <div class="requisites__list-name">Директор</div>
+                    <div class="requisites__list-value">Лебедев Кирилл Александрович</div>
+                </li>
+            </ul>
+
+            <button class="requisites__download">
+                <div class="requisites__download-img">
+                    <svg class="requisites__download-icon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.75 17V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.75 11L12.75 17L18.75 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M19.75 21H5.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                
+                <div class="requisites__download-label">
+                    <span>Скачать реквизиты</span> 
+                    <span class="requisites__download-file">Скачать pdf файл</span> 
+                </div>
+            </button>
+        </div>
+    </section>
+</body>
+</html>

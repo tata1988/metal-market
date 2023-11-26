@@ -3,10 +3,8 @@
 }
 
 .team__header {
-    height: 56px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 32px;
 }
 
@@ -29,6 +27,8 @@
   }
 
 .team__card {
+    display: flex;
+    flex-direction: column;
     width: 404px;
     height: 528px;
 }

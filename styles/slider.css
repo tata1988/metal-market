@@ -1,3 +1,4 @@
+
 .slider {
     margin-bottom: 124px;
 }
@@ -49,7 +50,7 @@
   border: 1px solid var(--green);
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1441px) {
 
   .slider__list {
     gap: 24px;
@@ -65,7 +66,7 @@
   
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .slider {
     margin-bottom: 100px;
 }
@@ -89,7 +90,7 @@
  
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .slider {
     margin-bottom: 64px;
 }

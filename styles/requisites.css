@@ -91,7 +91,7 @@
     font-weight: 400;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1441px) {
     .requisites__header {
         width: 770px;
     }
@@ -109,7 +109,7 @@
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 769px) {
 
     .requisites {
         margin-bottom: 100px;
@@ -139,7 +139,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
 
     .requisites {
         margin-bottom: 64px;

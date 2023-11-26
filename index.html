@@ -93,116 +93,131 @@
 
     <section class="slider">
         <div class="container">
-            <ul class="slider__list">
-                <li class="slider__item">
-                    <picture>
-                        <source media="(max-width: 1440px)" srcset="images/rectangle23-1440.jpg">
-                        <source media="(max-width: 768px)" srcset="images/rectangle23.jpg">
-                        <source media="(max-width: 375px)" srcset="images/rectangle23.jpg">
-                        <img src="images/rectangle23.jpg" alt="photo"> 
-                    </picture>
-                </li>
-                <li class="slider__item">
-                    <picture>
-                        <source media="(max-width: 1440px)" srcset="images/rectangle24-1440.jpg">
-                        <source media="(max-width: 768px)" srcset="images/rectangle24.jpg">
-                        <source media="(max-width: 375px)" srcset="images/rectangle24.jpg">
-                        <img src="images/rectangle24.jpg" alt="photo"> 
-                    </picture>
-                </li>
-                <li class="slider__item">
-                    <picture>
-                        <source media="(max-width: 1440px)" srcset="images/rectangle25-1440.jpg">
-                        <source media="(max-width: 768px)" srcset="images/rectangle25.jpg">
-                        <source media="(max-width: 375px)" srcset="images/rectangle25.jpg">
-                        <img src="images/rectangle25.jpg" alt="photo"> 
-                    </picture>
-                </li>
-            </ul>
-            <div class="slider__wrapper">
-                <div class="slider__progressbar">
-                    <div class="slider__progressbar-indicator"></div>
+            <div class="inner">
+                 <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <picture>
+                                <source media="(max-width: 1440px)" srcset="images/rectangle23-1440.jpg">
+                                <source media="(max-width: 768px)" srcset="images/rectangle23.jpg">
+                                <source media="(max-width: 375px)" srcset="images/rectangle23.jpg">
+                                <img src="images/rectangle23.jpg" alt="photo"> 
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <source media="(max-width: 1440px)" srcset="images/rectangle24-1440.jpg">
+                                <source media="(max-width: 768px)" srcset="images/rectangle24.jpg">
+                                <source media="(max-width: 375px)" srcset="images/rectangle24.jpg">
+                                <img src="images/rectangle24.jpg" alt="photo"> 
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <source media="(max-width: 1440px)" srcset="images/rectangle25-1440.jpg">
+                                <source media="(max-width: 768px)" srcset="images/rectangle25.jpg">
+                                <source media="(max-width: 375px)" srcset="images/rectangle25.jpg">
+                                <img src="images/rectangle25.jpg" alt="photo"> 
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <source media="(max-width: 1440px)" srcset="images/rectangle25-1440.jpg">
+                                <source media="(max-width: 768px)" srcset="images/rectangle25.jpg">
+                                <source media="(max-width: 375px)" srcset="images/rectangle25.jpg">
+                                <img src="images/rectangle25.jpg" alt="photo"> 
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <source media="(max-width: 1440px)" srcset="images/rectangle24-1440.jpg">
+                                <source media="(max-width: 768px)" srcset="images/rectangle24.jpg">
+                                <source media="(max-width: 375px)" srcset="images/rectangle24.jpg">
+                                <img src="images/rectangle24.jpg" alt="photo"> 
+                            </picture>
+                        </div>
+                    </div>
                 </div>
-                <button class="button button-prev">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16 20L8 12L16 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-                <button class="button button-next">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 20L16 12L8 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
+                <div class="slider__wrapper">
+                   <div class="swiper-scrollbar"></div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> 
+                </div>
+                
             </div>
-            
     </section>
 
     <section class="team">
         <div class="container">
-            <div class="team__header">
-                <h2 class="title_fs48">Наша команда</h2>
-                <div class="team__buttons">
-                    <button class="button button-prev">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16 20L8 12L16 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
-                    <button class="button button-next">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 20L16 12L8 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-                             
-            <p class="team__descr">Металл-Маркет — это команда профессионалов, влюбленных в свое дело. Уверены, что развитие компании начинается с развития ее сотрудников.</p>
-            <ul class="team__slider">
-                <li class="team__card">
-                    <div class="team__card-photo">
-                         <img class="team__card-img" src="images/person1.jpg" alt="photo"> 
+            <div class="swiper__inner">
+                <div class="team__header">
+                    <h2 class="title_fs48">Наша команда</h2>
+                    <div class="team__buttons">
+                        <button class="button-prev"></button>
+                        <button class="button-next"></button>
                     </div>
-                   
-                    <div class="team__card-descr">
-                        <div class="team__card-name">Ворончихин <br> Сергей Вячеславович</div>
-                        <div class="team__card-job">Директор</div>
-                    </div>
-                </li>
-                <li class="team__card">
-                    <div class="team__card-photo">
-                        <img class="team__card-img" src="images/person2.jpg" alt="photo"> 
-                   </div>
-                    <div class="team__card-descr">
-                        <div class="team__card-name">Ситникова <br> Александра Константиновна</div>
-                        <div class="team__card-job">Офис-менеджер</div>
-                    </div>
-                </li>
-                <li class="team__card">
-                    <div class="team__card-photo">
-                        <img class="team__card-img" src="images/person3.jpg" alt="photo"> 
-                   </div>
-                    <div class="team__card-descr">
-                        <div class="team__card-name">Лазарева <br> Валерия Максимовна</div>
-                        <div class="team__card-job">Бухгалтер</div>
-                    </div>
-                </li>
-                <li class="team__card">
-                    <div class="team__card-photo">
-                        <img class="team__card-img" src="images/person4.jpg" alt="photo"> 
-                   </div>
-                    <div class="team__card-descr">
-                        <div class="team__card-name">Наумов<br> Илья Семёнович</div>
-                        <div class="team__card-job">Руководитель отдела продаж</div>
-                    </div>
-                </li>
-            </ul>
+                </div> 
+                <p class="team__descr">Металл-Маркет — это команда профессионалов, влюбленных в свое дело. Уверены, что развитие компании начинается с развития ее сотрудников.</p>
+                <div class="gallery">
+                    
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide team__card">
+                            <div class="team__card-photo">
+                                <img class="team__card-img" src="images/person1.jpg" alt="photo"> 
+                            </div>
+                        
+                            <div class="team__card-descr">
+                                <div class="team__card-name">Ворончихин <br> Сергей Вячеславович</div>
+                                <div class="team__card-job">Директор</div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide team__card">
+                            <div class="team__card-photo">
+                                <img class="team__card-img" src="images/person2.jpg" alt="photo"> 
+                        </div>
+                            <div class="team__card-descr">
+                                <div class="team__card-name">Ситникова <br> Александра Константиновна</div>
+                                <div class="team__card-job">Офис-менеджер</div>
+                            </div>
+                        </li>
+                        <li class="team__card swiper-slide">
+                            <div class="team__card-photo">
+                                <img class="team__card-img" src="images/person3.jpg" alt="photo"> 
+                        </div>
+                            <div class="team__card-descr">
+                                <div class="team__card-name">Лазарева <br> Валерия Максимовна</div>
+                                <div class="team__card-job">Бухгалтер</div>
+                            </div>
+                        </li>
+                        <li class="team__card swiper-slide">
+                            <div class="team__card-photo">
+                                <img class="team__card-img" src="images/person4.jpg" alt="photo"> 
+                        </div>
+                            <div class="team__card-descr">
+                                <div class="team__card-name">Наумов<br> Илья Семёнович</div>
+                                <div class="team__card-job">Руководитель отдела продаж</div>
+                            </div>
+                        </li>
 
-                <div class="team__progressbar slider__progressbar">
-                    <div class="slider__progressbar-indicator"></div>
+                        <li class="team__card swiper-slide">
+                            <div class="team__card-photo">
+                                <img class="team__card-img" src="images/person4.jpg" alt="photo"> 
+                        </div>
+                            <div class="team__card-descr">
+                                <div class="team__card-name">Наумов<br> Илья Семёнович</div>
+                                <div class="team__card-job">Руководитель отдела продаж</div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
+
+                <div class="team__progressbar slider__progressbar"> </div>
+            </div>    
         </div>
     </section>
         
-    <section class="requisites">
+   <!--  <section class="requisites">
         <div class="container requisites__container">
             <div class="requisites__header">
                 <h2 class="title_fs48">Реквизиты</h2>
@@ -267,6 +282,8 @@
                 </div>
             </button>
         </div>
-    </section>
+    </section> -->
+    <script src="./scripts/swiper-bundle.min.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>

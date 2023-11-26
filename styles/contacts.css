@@ -130,7 +130,7 @@
 }
 
 
-@media (max-width: 1440px) {
+@media (max-width: 1441px) {
     .contacts__map {
         height: 696px;
     }
@@ -145,7 +145,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .contacts__title {
         margin-bottom: 40px;
     }
@@ -185,7 +185,7 @@
     
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .contacts__title {
         margin-bottom: 32px;
     }

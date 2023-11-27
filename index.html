@@ -15,6 +15,7 @@
             <h1 class="title contacts__title">Контакты</h1>
             <div class="contacts__wrapper">
                 <div class="contacts__map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab279dcb227b4a7e3c6f962b4a48640c588dc603f90156de0b2b6a1ff6518d060&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
                 </div>
                 <div class="contacts__modal-info modal-info">
                     <img class="modal-info__icon" src="./images/info.svg" alt="icon-info">
@@ -95,8 +96,8 @@
         <div class="container">
             <div class="inner">
                  <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                    <div class="swiper-wrapper slider-list">
+                        <div class="swiper-slide slider-item">
                             <picture>
                                 <source media="(max-width: 1440px)" srcset="images/rectangle23-1440.jpg">
                                 <source media="(max-width: 768px)" srcset="images/rectangle23.jpg">
@@ -104,7 +105,7 @@
                                 <img src="images/rectangle23.jpg" alt="photo"> 
                             </picture>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide slider-item">
                             <picture>
                                 <source media="(max-width: 1440px)" srcset="images/rectangle24-1440.jpg">
                                 <source media="(max-width: 768px)" srcset="images/rectangle24.jpg">
@@ -112,7 +113,7 @@
                                 <img src="images/rectangle24.jpg" alt="photo"> 
                             </picture>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide slider-item">
                             <picture>
                                 <source media="(max-width: 1440px)" srcset="images/rectangle25-1440.jpg">
                                 <source media="(max-width: 768px)" srcset="images/rectangle25.jpg">
@@ -120,7 +121,7 @@
                                 <img src="images/rectangle25.jpg" alt="photo"> 
                             </picture>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide slider-item">
                             <picture>
                                 <source media="(max-width: 1440px)" srcset="images/rectangle25-1440.jpg">
                                 <source media="(max-width: 768px)" srcset="images/rectangle25.jpg">
@@ -128,7 +129,7 @@
                                 <img src="images/rectangle25.jpg" alt="photo"> 
                             </picture>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide slider-item">
                             <picture>
                                 <source media="(max-width: 1440px)" srcset="images/rectangle24-1440.jpg">
                                 <source media="(max-width: 768px)" srcset="images/rectangle24.jpg">
@@ -159,9 +160,9 @@
                     </div>
                 </div> 
                 <p class="team__descr">Металл-Маркет — это команда профессионалов, влюбленных в свое дело. Уверены, что развитие компании начинается с развития ее сотрудников.</p>
-                <div class="gallery">
-                    
-                    <ul class="swiper-wrapper">
+                
+                <div class="team__gallery gallery">
+                    <ul class="swiper-wrapper gallery-wrapper">
                         <li class="swiper-slide team__card">
                             <div class="team__card-photo">
                                 <img class="team__card-img" src="images/person1.jpg" alt="photo"> 
@@ -175,7 +176,7 @@
                         <li class="swiper-slide team__card">
                             <div class="team__card-photo">
                                 <img class="team__card-img" src="images/person2.jpg" alt="photo"> 
-                        </div>
+                             </div>
                             <div class="team__card-descr">
                                 <div class="team__card-name">Ситникова <br> Александра Константиновна</div>
                                 <div class="team__card-job">Офис-менеджер</div>
@@ -184,7 +185,7 @@
                         <li class="team__card swiper-slide">
                             <div class="team__card-photo">
                                 <img class="team__card-img" src="images/person3.jpg" alt="photo"> 
-                        </div>
+                            </div>
                             <div class="team__card-descr">
                                 <div class="team__card-name">Лазарева <br> Валерия Максимовна</div>
                                 <div class="team__card-job">Бухгалтер</div>
@@ -193,7 +194,7 @@
                         <li class="team__card swiper-slide">
                             <div class="team__card-photo">
                                 <img class="team__card-img" src="images/person4.jpg" alt="photo"> 
-                        </div>
+                            </div>
                             <div class="team__card-descr">
                                 <div class="team__card-name">Наумов<br> Илья Семёнович</div>
                                 <div class="team__card-job">Руководитель отдела продаж</div>
@@ -203,7 +204,7 @@
                         <li class="team__card swiper-slide">
                             <div class="team__card-photo">
                                 <img class="team__card-img" src="images/person4.jpg" alt="photo"> 
-                        </div>
+                            </div>
                             <div class="team__card-descr">
                                 <div class="team__card-name">Наумов<br> Илья Семёнович</div>
                                 <div class="team__card-job">Руководитель отдела продаж</div>
@@ -217,7 +218,7 @@
         </div>
     </section>
         
-   <!--  <section class="requisites">
+    <section class="requisites">
         <div class="container requisites__container">
             <div class="requisites__header">
                 <h2 class="title_fs48">Реквизиты</h2>
@@ -282,7 +283,8 @@
                 </div>
             </button>
         </div>
-    </section> -->
+    </section>
+    
     <script src="./scripts/swiper-bundle.min.js"></script>
     <script src="./scripts/script.js"></script>
 </body>

@@ -4,9 +4,8 @@
 }
 
 .slider__list {
-  display: flex;
-  gap: 40px;
   margin-bottom: 32px;
+  height: 396px;
 }
 
 .slider__item {
@@ -104,8 +103,4 @@
     height: 252px;
   }
 
-  .slider__item:nth-child(2), .slider__item:nth-child(3) {
-    display: none;
-  }
- 
 }
